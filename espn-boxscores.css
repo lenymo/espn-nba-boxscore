@@ -1,0 +1,189 @@
+/*
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+//  GENERAL
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+#header-wrapper {
+  position: relative;
+}
+
+.game-strip {
+  background: #f4f4f4;
+  position: relative;
+  top: 0;
+}
+
+#global-viewport #pane-main {
+  background: #dedfe3;
+  padding-top: 0;
+}
+
+#main-container {
+  padding-top: 10px;
+}
+
+/* Hide ads */
+.ad-slot {
+  display: none;
+}
+
+
+/*
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+//  GAME SCOREBOARD
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+#global-scoreboard {
+  background: #fff;
+}
+
+#global-scoreboard .scoreboard-dropdown-wrapper {
+  border-right: 0;
+  min-width: 0;
+  padding: 5px 0;
+  width: 70px;
+}
+
+#global-scoreboard .scoreboard-menu {
+  display: none;
+}
+
+#global-scoreboard .scoreboard-dropdown-wrapper .button-filter {
+  background: #fff;
+  border: 0;
+  min-height: 55px;
+  padding: 0;
+  padding-right: 30px;
+  width: auto;
+}
+
+#global-scoreboard .cscore {
+  border-left: 0;
+  border-right: 0;
+}
+
+.cscore_team:after {
+  display: none;
+}
+
+#global-scoreboard .cscore_link {
+  padding: 5px 17px;
+  min-width: 110px;
+}
+
+#global-scoreboard .view-full {
+  border-left: 0;
+}
+
+.scores-carousel {
+  background: #fff;
+}
+
+.cscore_header-links .cscore_header-link:first-of-type {
+  display: none;
+}
+
+.cscore_header-links .cscore_header-link:last-of-type {
+  line-height: 65px;
+}
+
+
+
+.game-strip .competitors {
+  height: 60px;
+}
+
+
+/*
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+//  BOXSCORE / PLAY-BY-PLAY NAV
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+#global-nav-tertiary {
+  background: #f4f4f4;
+  border-bottom: 0;
+}
+
+#global-nav-tertiary .tertiary-nav-container>ul>li,
+#global-nav-tertiary .tertiary-nav-container>ul>li a {
+  line-height: 30px;
+}
+
+#global-nav-tertiary .tertiary-nav-container>ul>li.active {
+  background: #dedfe3;
+}
+
+#global-nav-tertiary .tertiary-nav-container>ul>li.active,
+#global-nav-tertiary .tertiary-nav-container>ul>li.hover {
+  background: #dedfe3;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+#global-nav-tertiary .tertiary-nav-container>ul>li.active a:before,
+#global-nav-tertiary .tertiary-nav-container>ul>li.hover a:before {
+  /*bottom: auto;
+  top: 0;*/
+  display: none;
+}
+
+
+
+
+
+/*
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+//  BOXSCORE
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+/* Always show bench */
+#gamepackage-box-score .content.hide-bench table thead:nth-of-type(2),
+#gamepackage-box-score .content.hide-bench table tbody:nth-of-type(2) {
+  display: table-row-group;
+}
+
+.table-footnote.show-hide {
+  display: none;
+}
+
+.layout-bc {
+  width: 100%;
+}
+
+/* Hide Outbrain ads */
+#gamepackage-outbrain {
+  display: none;
+}
+
+@media (min-width:1024px) {
+  #global-nav-tertiary.game-package-nav .tertiary-nav-container {
+    max-width: none;
+  }
+
+  /* Hide the ESPN header */
+  #global-header {
+    display: none;
+  }
+
+  .layout-bc .col-b {
+    width: 100%;
+  }
+  
+  /* Hide sidebar with twitter feeds */
+  .layout-bc .col-c {
+    display: none;
+  }
+
+}
+
+@media (min-width:1100px) {
+  #gamepackage-boxscore-module .column-one,
+  #gamepackage-boxscore-module .column-two {
+    float: left !important;
+    width: 49.5% !important;
+  }
+
+  #gamepackage-boxscore-module .column-two {
+    margin-left: 1%;
+  }
+}
