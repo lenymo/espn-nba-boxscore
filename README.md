@@ -5,11 +5,11 @@ Also adjusts CSS on the play-by-play tab.
 
 ##Before
 
-![Before](https://github.com/lenymo/espn-nba-boxscore/espn-boxscores-before.png)
+![Before](https://github.com/lenymo/espn-nba-boxscore/blob/master/espn-boxscores-before.png)
 
 ##Before
 
-![After](https://github.com/lenymo/espn-nba-boxscore/espn-boxscores-after.png)
+![After](https://github.com/lenymo/espn-nba-boxscore/blob/master/espn-boxscores-after.png)
 
 ---
 
