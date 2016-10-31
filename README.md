@@ -21,4 +21,10 @@ Install the [stylebot.me Chrome plugin](https://chrome.google.com/webstore/detai
 
 Then paste the CSS from this repo (espn-boxscores.css) in the textfield below. Click save and refresh the boxscore page.
 
+---
 
+#Notes
+
+- Feel free to chop and change this.
+- This is super-rough at this stage and was intended for personal use.
+- I may consider rolling this out as a dedicated Chrome plugin if there's sufficient interest.
