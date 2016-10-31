@@ -12,7 +12,7 @@ Also adjusts CSS on the play-by-play tab.
 
 ![Before](https://github.com/lenymo/espn-nba-boxscore/blob/master/espn-boxscores-before.png)
 
-##Before
+##After
 
 ![After](https://github.com/lenymo/espn-nba-boxscore/blob/master/espn-boxscores-after.png)
 
@@ -21,6 +21,10 @@ Also adjusts CSS on the play-by-play tab.
 # Setup
 
 Install the [stylebot.me Chrome plugin](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha). In [Chrome Extension settings](chrome://extensions/), navigate to the stylebot extension, and the Styles tab. Click the "Add a new style" button and use the following url pattern:
+
+    http://www.espn.com/nba/boxscore, http://www.espn.com/nba/playbyplay
+
+or if you're in Australia:
 
     http://www.espn.com.au/nba/boxscore, http://www.espn.com.au/nba/playbyplay
 
